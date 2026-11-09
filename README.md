@@ -72,7 +72,7 @@ The resulting 27-feature subset is used to train the optimized Random Forest cla
 ## System Architecture
 
 <p align="center">
-  <img src="assets/Evolutionary IDS Model Architecture.png" width="100%">
+  <img src="Evolutionary IDS Model Architecture.png" width="100%">
 </p>
 
 The system follows two parallel classification pipelines:
