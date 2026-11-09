@@ -1,5 +1,9 @@
 # Evolutionary IDS
 
+<p align="center">
+  <img src="Dashboard.png" width="100%">
+</p>
+
 > A Machine Learning-based Intrusion Detection System that uses Genetic Algorithm (GA) for feature selection and Random Forest classifiers to detect malicious network traffic.
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
