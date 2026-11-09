@@ -342,6 +342,11 @@ Deployment workflow:
 6. Configure Python 3.11.
 7. Deploy the application.
 
+### Web Application
+```text
+https://evolutionary-ids.streamlit.app/
+```
+
 The deployment requires the trained model artifacts, feature schema, and report files referenced by the application.
 
 ---
@@ -413,16 +418,6 @@ The central experimental objective is to investigate the effectiveness of Geneti
 ## License
 
 This project is available under the MIT License.
-
----
-
-## Author
-
-**Utkarsh Srivastava**
-
-B.Tech Computer Science and Engineering
-
-GitHub: [@us-utkarshsri07](https://github.com/us-utkarshsri07)
 
 ---
 
