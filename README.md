@@ -126,39 +126,28 @@ Both models are evaluated and compared to understand the impact of evolutionary 
 
 ## Project Structure
 
-```text
-Evolutionary-IDS/
-│
-├── app.py
-│
-├── models/
-│   ├── baseline_random_forest.joblib
-│   ├── ga_random_forest.joblib
-│   └── ga_selected_features.json
-│
-├── data/
-│   └── processed/
-│       └── feature_schema.json
-│
-├── outputs/
-│   └── reports/
-│       ├── model_comparison.csv
-│       ├── final_calibrated_test_results.csv
-│       ├── baseline_metrics.json
-│       ├── comparison_metadata.json
-│       ├── threshold_recommendations.json
-│       ├── baseline_feature_importance.csv
-│       ├── ga_fitness_history.csv
-│       ├── ga_selected_features.csv
-│       └── ...
-│
-├── assets/
-│   └── model_architecture.png
-│
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
+## Project Structure
+
+| **Folder / File** | **Purpose** |
+|---|---|
+| `app.py` | Main Streamlit application and dashboard |
+| `models/` | Trained machine learning models |
+| `models/baseline_random_forest.joblib` | Baseline Random Forest model (69 features) |
+| `models/ga_random_forest.joblib` | GA-optimized Random Forest model (27 features) |
+| `models/ga_selected_features.json` | Selected features from Genetic Algorithm |
+| `data/processed/` | Processed data and feature metadata |
+| `data/processed/feature_schema.json` | Expected input feature schema |
+| `outputs/reports/` | Model evaluation results and analysis reports |
+| `outputs/reports/model_comparison.csv` | Baseline versus GA model comparison |
+| `outputs/reports/baseline_metrics.json` | Baseline model evaluation metrics |
+| `outputs/reports/comparison_metadata.json` | Model comparison metadata |
+| `outputs/reports/threshold_recommendations.json` | Threshold recommendations |
+| `outputs/reports/ga_fitness_history.csv` | Genetic Algorithm fitness history |
+| `outputs/reports/ga_selected_features.csv` | GA-selected feature details |
+| `assets/` | Project images and visual assets |
+| `requirements.txt` | Python dependencies |
+| `.gitignore` | Git ignored files and directories |
+| `README.md` | Project documentation |
 
 *Note: The structure above highlights the primary application and model artifacts. Additional reports and project files may be present in the repository. Large raw and processed datasets are not included.*
 
