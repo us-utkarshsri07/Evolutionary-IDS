@@ -1,0 +1,30 @@
+{
+    "Baseline": {
+        "Threshold": 0.1,
+        "Attack_Precision": 0.08258928571428571,
+        "Attack_Recall": 0.11687725631768953,
+        "Attack_F1": 0.09678624813153962,
+        "Macro_F1": 0.5457446007517516,
+        "False_Positive_Rate": 0.006298822993659579,
+        "Predicted_Attack_Count": 3136,
+        "TN": 453875,
+        "FP": 2877,
+        "FN": 1957,
+        "TP": 259,
+        "Model": "Baseline"
+    },
+    "GA": {
+        "Threshold": 0.05,
+        "Attack_Precision": 0.022395971375563213,
+        "Attack_Recall": 0.07626353790613719,
+        "Attack_F1": 0.0346240524482688,
+        "Macro_F1": 0.5121235931705566,
+        "False_Positive_Rate": 0.01615099660209479,
+        "Predicted_Attack_Count": 7546,
+        "TN": 449375,
+        "FP": 7377,
+        "FN": 2047,
+        "TP": 169,
+        "Model": "GA"
+    }
+}

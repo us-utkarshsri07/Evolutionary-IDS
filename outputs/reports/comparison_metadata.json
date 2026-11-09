@@ -1,0 +1,9 @@
+{
+    "Training_Records": 250000,
+    "Baseline_Features": 69,
+    "GA_Features": 27,
+    "Feature_Reduction_Percentage": 60.86956521739131,
+    "GA_Training_Time_Seconds": 12.587087300023995,
+    "Threshold": 0.5,
+    "Random_State": 42
+}
