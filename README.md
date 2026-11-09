@@ -23,6 +23,7 @@ Instead of relying on a single classification model, the system implements two R
 
 The two approaches are evaluated and compared through a Streamlit dashboard, providing insights into classification performance, feature selection, model behavior, and detection results.
 
+
 ### Core Components
 
 - CIC-IDS2017 network traffic dataset
@@ -37,7 +38,23 @@ The two approaches are evaluated and compared through a Streamlit dashboard, pro
 - Interactive Streamlit dashboard
 
 ---
+## Dataset Overview
 
+This project uses the **CIC-IDS2017** benchmark dataset, containing approximately 2.8 million network flow records representing benign and malicious traffic.
+
+| **Attribute** | **Description** |
+|---|---|
+| Dataset | CIC-IDS2017 |
+| Records | ~2.8 Million Flows |
+| Features | 69 |
+| Classification | Binary (Normal / Attack) |
+| Format | CSV |
+
+**Feature Selection:** Genetic Algorithm reduces the input features from 69 to 27, achieving approximately **60.9% dimensionality reduction**.
+
+**Source:** [CIC-IDS2017 Official Dataset](https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset)
+
+---
 ## Key Highlights
 
 | Component | Implementation |
@@ -119,8 +136,6 @@ CIC-IDS2017 Dataset
 Both models are evaluated and compared to understand the impact of evolutionary feature selection on intrusion detection.
 
 ---
-
-## Project Structure
 
 ## Project Structure
 
