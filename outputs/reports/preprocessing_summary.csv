@@ -1,0 +1,4 @@
+Partition,Total_Rows,Benign,Attack
+train,1668530,1402023,266507
+validation,458968,456752,2216
+test,703245,414322,288923

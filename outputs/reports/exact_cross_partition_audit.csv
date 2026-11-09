@@ -1,0 +1,9 @@
+Metric,Value
+Candidate shared hashes,28644
+Exactly verified shared feature vectors,28644
+Exact train-validation matches,14531
+Exact train-test matches,15250
+Exact validation-test matches,10975
+Exact matches across all three,6056
+Exact vectors with conflicting labels,633
+Shared hashes not exactly verified,0
